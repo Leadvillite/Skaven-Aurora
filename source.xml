@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.1">
-			<file name="source.xml" url="" />
+			<file name="source.xml" url="https://raw.githubusercontent.com/Leadvillite/Skaven-Aurora/main/source.xml?token=GHSAT0AAAAAACMWJJ3FUBIYYAMG32FSST2AZNDHKVQ" />
 		</update>
 	</info>
 	<element name="Bryant Homebrew" type="Source" source="Core" id="ID_BRYANT_HOMEBREW">
