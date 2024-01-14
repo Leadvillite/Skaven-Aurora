@@ -5,7 +5,7 @@
 			<file name="source.xml" url="https://raw.githubusercontent.com/Leadvillite/Skaven-Aurora/main/source.xml?token=GHSAT0AAAAAACMWJJ3FUBIYYAMG32FSST2AZNDHKVQ" />
 		</update>
 	</info>
-	<element name="Bryant Homebrew" type="Source" source="Core" id="ID_BRYANT_HOMEBREW">
+	<element name="Bryant Homebrew" type="Source" source="Homebrew" id="ID_BRYANT_HOMEBREW">
 		<description>
 			<![CDATA[<p><strong><em>A collection of all the wacky and mishapen ideas from the Bryant family.</em></strong></p><p>This will contain added content such as races, items, monsters, and worlds.</p>]]>
 		</description>
