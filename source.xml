@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.1">
+			<file name="source.xml" url="" />
+		</update>
+	</info>
+	<element name="Bryant Homebrew" type="Source" source="Core" id="ID_BRYANT_HOMEBREW">
+		<description>
+			<![CDATA[<p><strong><em>A collection of all the wacky and mishapen ideas from the Bryant family.</em></strong></p><p>This will contain added content such as races, items, monsters, and worlds.</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">BH</set>
+			<set name="url">https://github.com/Leadvillite?tab=repositories</set>
+			<set name="image"></set>
+			<set name="author" abbreviation="BF" url="https://github.com/Leadvillite?tab=repositories">Bryant Family</set>
+			<set name="official">false</set>
+			<set name="supplement">true</set>
+			<set name="release">20240113</set>
+		</setters>
+	</element>
+</elements>
