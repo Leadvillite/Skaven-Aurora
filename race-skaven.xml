@@ -10,11 +10,10 @@
   </info>
   <element name="Skaven" type="Race" source="Homebrew" id="ID_HOMEBREW_BRYANT">
     <description>
-      <p>The Skaven are a race of ratmen. They are may be slightly cowardly, but dexterity and wisdom are unlike anything else the world has seen. From silent assasins that strike at unseen angles to engineers that hobble together contraptions beyond comprehension, Skaven are a wonder to behold. </p>
-      <p class="indent">The githyanki were motivated by revenge and convinced that they deserved to take whatever they wanted from the worlds they traveled. Ranging out from the titanic city of Tu’narath on the Astral Plane, they send raiders out to plunder the Material Plane and other worlds, bringing treasures and slaves back to their ageless realm. At the same time, they hunt down and kill mind flayers when ever possible, as recompense for what the illithids did to them.</p>
-      <p class="indent">The githzerai believed that the path to an enlightened civilization lay in seclusion, not conflict. Their dedication to the principles of order is so strong that they can manipulate the stuff of chaos and use it to their benefit; thus, they have carved out a stronghold for themselves on the plane of Limbo that is virtually impervious. Though the githzerai are pacifists by nature, they share the githyanki’s racial hatred for mind flayers, and from time to time they send out squads to destroy illithid outposts.</p>
-      <p class="indent">If the two races were ever to team up against the illithids, a combined force of gith could conceivably tip the balance in their favor. But as long as the githyanki and githzerai stay at each other’s throats, their goal of ultimate victory over their original common enemy will likely remain unachieved.</p>
-      <h4>GITH TRAITS</h4>
+      <p>The Skaven are a race of ratmen. They are may be slightly cowardly, but thier dexterity and wisdom are unlike anything else the world has seen. From silent assasins that strike at unseen angles to engineers that hobble together contraptions beyond comprehension, Skaven are a wonder to behold. </p>
+      <p class="indent">The Skaven live under ground in large cities. Many of the note worthy ones typically fall into a few catagories. Sorccerors that bend unknown powers for the benifit of themselves and the ruin of others, Artificers who tinker and create contraptions of varying degrees of destructive power, and Assassins that are masters of stealth, and infiltration.</p>
+      <p class="indent">Skaven society is a brutal one. Everyone out for themselves and only the strongest and most cunning rise to the top. Most of these cities are devided into speciallizations, sorccerors will cast out gifted skaven artificers and assassins to protect their hold on power within the city. The others do the same with cities under their control.</p>
+      <h4>SKAVEN TRAITS</h4>
       <p>Your character shares the following traits with other Skaven.</p>
       <p class="indent"><b><i>Ability Scores. </i></b>Your Dexterity score increases by 2. Your Wisdom score increases by 1. Your Strength score decreases by 1.</p>
       <p class="indent"><b><i>Age. </i></b>The Skaven reach adulthood very quickly, being fully mature in 10 years.</p>
@@ -155,21 +154,4 @@
       <set name="speakers">Githyanki and githzerai</set>
     </setters>
   </element>
-	<element name="Greater Silver Sword" type="Magic Item" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_WEAPON_GREATER_SILVER_SWORD">
-		<description>
-			<p>This magic weapon grants a +3 bonus to attack and damage rolls made with it. While you hold the sword, you have advantage on Intelligence, Wisdom, and Charisma saving throws, you are immune to being charmed, and you have resistance to psychic damage. In addition, if you score a critical hit with it against a creature's astral body, you can cut the silvery cord that tethers the target to its material body, instead of dealing damage.</p>
-		</description>
-		<setters>
-			<set name="category">Magic Weapons</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="greatsword">Weapon</set>
-			<set name="attunement" addition="by a creature that has psionic ability">true</set>
-			<set name="rarity">Legendary</set>
-			<set name="enhancement">3</set>
-			<set name="weapon">Greatsword</set>
-		</setters>
-		<rules>
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
-		</rules>
-	</element>
 </elements>
