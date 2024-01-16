@@ -23,8 +23,8 @@
     </description>
     <sheet display="false"/>
     <setters>
-      <set name="names" type="male">Yanki, Zerai</set>
-      <set name="names" type="female">Yanki, Zerai</set>
+      <set name="names" type="male">Skaven</set>
+      <set name="names" type="female">Skaven</set>
       <set name="names-format">{{name}}</set>
       <set name="height" modifier="2d12">5'0"</set>
       <set name="weight" modifier="2d12">100 lb.</set>
@@ -37,9 +37,9 @@
       <grant type="Size" id="ID_SIZE_MEDIUM" />
       <grant type="Language" id="ID_LANGUAGE_UNDERCOMMON" />
     </rules>
-      <grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_GITHYANKI_DECADENT_MASTERY" />
-      <grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_GITHYANKI_MARTIAL_PRODIGY" />
-      <grant type="Racial Trait" id="ID_WOTC_MTOF_RACIAL_TRAIT_GITHYANKI_GITHYANKI_PSIONICS" />
+      <grant type="Racial Trait" id="ID_BF_BH_RACIAL_TRAIT_SKAVEN_SKITTER_SCURRY" />
+      <grant type="Racial Trait" id="ID_BF_BH_RACIAL_TRAIT_SKAVEN_VENOMOUS_BITE" />
+      <grant type="Racial Trait" id="ID_WOTC_PHB_RACIAL_TRAIT_DARKVISION" />
   </element>
 
 
