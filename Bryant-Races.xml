@@ -5,7 +5,7 @@
     <description>The race of scurrying rats</description>
     <author>Bryant homebrew</author>
     <update version="0.0.1">
-      <file name="Bryant-Races.xml" url="https://raw.githubusercontent.com/Leadvillite/Skaven-Aurora/main/race-skaven.xml?token=GHSAT0AAAAAACMXJYXLQG5U2FJ7Z5DY3YE6ZNGW4OA" />
+      <file name="Bryant-Races.xml" url="https://raw.githubusercontent.com/Leadvillite/Skaven-Aurora/main/Bryant-Races.xml" />
     </update>
   </info>
   <element name="Skaven" type="Race" source="Bryant Homebrew" id="ID_HOMEBREW_BRYANT">
