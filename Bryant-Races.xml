@@ -16,10 +16,11 @@
       <h4>SKAVEN TRAITS</h4>
       <p>Your character shares the following traits with other Skaven.</p>
       <p class="indent"><b><i>Ability Scores. </i></b>Your Dexterity score increases by 2. Your Wisdom score increases by 1. Your Strength score decreases by 1.</p>
-      <p class="indent"><b><i>Age. </i></b>The Skaven reach adulthood very quickly, being fully mature in 10 years.</p>
+      <p class="indent"><b><i>Age. </i></b>The Skaven reach adulthood very quickly, being fully mature in 10 years but only live to 60 years.</p>
       <p class="indent"><b><i>Size. </i></b>Skaven are smaller than most humans, ranging between 4-5 feet tall.</p>
       <p class="indent"><b><i>Speed. </i></b>Your base walking speed is 30 feet.</p>
       <p class="indent"><b><i>Language. </i></b>You can speak, read, and write Undercommon.</p>
+      <p class="indent"><b><i>Vision. </i></b>The Skaven spend most of their time in their underground cities and tunnels. This this lifestyle has granted you darkvision.</p>
     </description>
     <sheet display="false"/>
     <setters>
