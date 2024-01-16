@@ -8,7 +8,7 @@
       <file name="race-skaven.xml" url="https://github.com/Leadvillite/Skaven-Aurora.git" />
     </update>
   </info>
-  <element name="Skaven" type="Race" source="Homebrew" id="ID_HOMEBREW_BRYANT">
+  <element name="Skaven" type="Race" source="Bryant Homebrew" id="ID_HOMEBREW_BRYANT">
     <description>
       <p>The Skaven are a race of ratmen. They are may be slightly cowardly, but thier dexterity and wisdom are unlike anything else the world has seen. From silent assasins that strike at unseen angles to engineers that hobble together contraptions beyond comprehension, Skaven are a wonder to behold. </p>
       <p class="indent">The Skaven live under ground in large cities. Many of the note worthy ones typically fall into a few catagories. Sorccerors that bend unknown powers for the benifit of themselves and the ruin of others, Artificers who tinker and create contraptions of varying degrees of destructive power, and Assassins that are masters of stealth, and infiltration.</p>
