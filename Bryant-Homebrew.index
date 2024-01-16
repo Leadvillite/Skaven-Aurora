@@ -11,7 +11,7 @@
 		<file name="source.xml" url="https://raw.githubusercontent.com/Leadvillite/Skaven-Aurora/main/Bryant-Homebrew.index?token=GHSAT0AAAAAACMWJJ3E4OVOT734FO6TYSYQZNDHFTQ" />
 		
 		<!-- races -->
-		<file name="race-skaven.xml" url="https://raw.githubusercontent.com/Leadvillite/Skaven-Aurora/main/race-skaven.xml?token=GHSAT0AAAAAACMWJJ3ERS45OHFMJKOGOKNOZNDHHNA" />
+		<file name="Bryant-Races.xml" url="https://raw.githubusercontent.com/Leadvillite/Skaven-Aurora/main/Bryant-Races.xml?token=GHSAT0AAAAAACMXJYXKEFO2NWXETRYWDZL2ZNGXAMQ" />
 
 		<!-- classes -->
 		<file name="class-barbarian.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/classes/class-barbarian.xml" />
@@ -20,13 +20,7 @@
 		<file name="background-acolyte.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/backgrounds/background-acolyte.xml" />
 
 		<!-- items -->
-		<file name="items-armor.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-armor.xml" />
-		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-weapons.xml" />
-		<file name="items-gear.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-gear.xml" />
-		<file name="items-packs.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-packs.xml" />
-		<file name="items-instrument.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-instrument.xml" />
-		<file name="items-tools.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-tools.xml" />
-		<file name="items-mounts.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-mounts.xml" />
+		<file name="Bryant-Items.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-armor.xml" />
 
 		<!-- misc -->
 		<file name="languages.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/languages.xml" />
