@@ -2,7 +2,7 @@
 	<info>
 		<name>Bryant Homebrew</name>
 		<description>A collection of homebrew ideas created by the Bryant family.</description>
-		<author url="https://github.com/Leadvillite?tab=repositories</author>
+		<author url="https://github.com/Leadvillite/Skaven-Aurora"</author>
 		<update version="0.1">
 			<file name="Bryant-Homebrew.index" url="https://raw.githubusercontent.com/Leadvillite/Skaven-Aurora/main/Bryant-Homebrew.index?token=GHSAT0AAAAAACMWJJ3FD2WLDJ6JIUS7A3IKZNDHOLQ" />
 		</update>
