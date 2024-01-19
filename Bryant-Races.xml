@@ -27,8 +27,6 @@
       <set name="names" type="male">Skaven</set>
       <set name="names" type="female">Skaven</set>
       <set name="names-format">{{name}}</set>
-      <set name="height" modifier="1d6">4'6"</set>
-      <set name="weight" modifier="2d8">80 lb.</set>
     </setters>
     <rules>
       <stat name="dexterity" value="2"/>
