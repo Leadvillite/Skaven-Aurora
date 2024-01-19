@@ -51,7 +51,7 @@
   </element>
 
   
-  <element name="Venomous Bite" type="Racial Trait" source="Bryant Homebrew" id="ID_BF_BH_RACIAL_TRAIT_VENOMOUS_BITE">
+  <element name="Venomous Bite" type="Racial Trait" source="Bryant Homebrew" id="ID_BF_BH_RACIAL_TRAIT_SKAVEN_VENOMOUS_BITE">
    		<description>
 			<p>You can use your action to make an attack using your mouth.</p>
 			<p>When you use your bite attack and it hits, the creature must make a constitution saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 1d4 piercing damage + 1d8 poison on a failed save, and half as much poison damage on a successful one. The damage increases to 2d8 at 6th level, 3d8 at 11th level, and 4d8 at 16th level.</p>
