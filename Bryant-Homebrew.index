@@ -4,14 +4,14 @@
 		<description>A collection of homebrew ideas created by the Bryant family.</description>
 		<author> url="https://github.com/Leadvillite/Skaven-Aurora"</author>
 		<update version="0.1">
-			<file name="Bryant-Homebrew.index" url="https://raw.githubusercontent.com/Leadvillite/Skaven-Aurora/main/Bryant-Homebrew.index?token=GHSAT0AAAAAACMWJJ3FD2WLDJ6JIUS7A3IKZNDHOLQ" />
+			<file name="Bryant-Homebrew.index" url="https://raw.githubusercontent.com/Leadvillite/Skaven-Aurora/main/Bryant-Homebrew.index" />
 		</update>
 	</info>
 	<files>	
-		<file name="source.xml" url="https://raw.githubusercontent.com/Leadvillite/Skaven-Aurora/main/Bryant-Homebrew.index?token=GHSAT0AAAAAACMWJJ3E4OVOT734FO6TYSYQZNDHFTQ" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/Leadvillite/Skaven-Aurora/main/source.xml" />
 		
 		<!-- races -->
-		<file name="Bryant-Races.xml" url="https://raw.githubusercontent.com/Leadvillite/Skaven-Aurora/main/Bryant-Races.xml?token=GHSAT0AAAAAACMXJYXKEFO2NWXETRYWDZL2ZNGXAMQ" />
+		<file name="Bryant-Races.xml" url="https://raw.githubusercontent.com/Leadvillite/Skaven-Aurora/main/Bryant-Races.xml" />
 
 		<!-- classes -->
 		<file name="class-barbarian.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/classes/class-barbarian.xml" />
@@ -20,9 +20,9 @@
 		<file name="background-acolyte.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/backgrounds/background-acolyte.xml" />
 
 		<!-- items -->
-		<file name="Bryant-Items.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-armor.xml" />
+		<file name="Bryant-Items.xml" url="https://raw.githubusercontent.com/Leadvillite/Skaven-Aurora/main/Bryant_Items.xml" />
 
 		<!-- misc -->
-		<file name="Bryant_Feats.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/feats.xml" />
+		<file name="Bryant_Feats.xml" url="https://raw.githubusercontent.com/Leadvillite/Skaven-Aurora/main/Bryant_Feats.xml" />
 	</files>
 </index>
