@@ -23,18 +23,18 @@
 		<file name="race-tiefling.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/races/race-tiefling.xml" />
 
 		<!-- classes -->
-		<file name="class-barbarian.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-barbarian.xml" />
-		<file name="class-bard.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-bard.xml" />
-		<file name="class-cleric.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-cleric.xml" />
-		<file name="class-druid.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-druid.xml" />
-		<file name="class-fighter.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-fighter.xml" />
-		<file name="class-monk.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-monk.xml" />
-		<file name="class-paladin.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-paladin.xml" />
-		<file name="class-ranger.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-ranger.xml" />
-		<file name="class-rogue.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-rogue.xml" />
-		<file name="class-sorcerer.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-sorcerer.xml" />
-		<file name="class-warlock.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-warlock.xml" />
-		<file name="class-wizard.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-wizard.xml" />
+		<file name="class-2024barbarian.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-barbarian.xml" />
+		<file name="class-2024bard.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-bard.xml" />
+		<file name="class-2024cleric.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-cleric.xml" />
+		<file name="class-2024druid.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-druid.xml" />
+		<file name="class-2024fighter.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-fighter.xml" />
+		<file name="class-2024monk.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-monk.xml" />
+		<file name="class-2024paladin.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-paladin.xml" />
+		<file name="class-2024ranger.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-ranger.xml" />
+		<file name="class-2024rogue.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-rogue.xml" />
+		<file name="class-2024sorcerer.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-sorcerer.xml" />
+		<file name="class-2024warlock.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-warlock.xml" />
+		<file name="class-2024wizard.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-wizard.xml" />
 
 		<!-- archetypes -->
 		<file name="barbarian-berserker.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/barbarian-berserker.xml" />
