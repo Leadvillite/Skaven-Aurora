@@ -267,14 +267,11 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="athletics:proficiency" value="strength:modifier + proficiency" bonus="base" />
-			<stat name="intimidation:proficiency" value="strength:modifier + proficiency" bonus="double" />
-			<stat name="perception:proficiency" value="strength:modifier + proficiency" bonus="double" />
-			<stat name="stealth:proficiency" value="strength:modifier + proficiency" bonus="double" />
-			<stat name="survival:proficiency" value="strength:modifier + proficiency" bonus="double" />
-
-
-			
+			<stat name="athletics:modifier" value="strength:modifier" bonus="base" />
+			<stat name="intimidation:modifier" value="strength:modifier" bonus="base" />
+			<stat name="perception:modifier" value="strength:modifier" bonus="base" />
+			<stat name="stealth:modifier" value="strength:modifier" bonus="base" />
+			<stat name="survival:modifier" value="strength:modifier" bonus="base" />
 			<select type="Class Feature" name="Primal Knowledge (Barbarian 3)" level="3" number="1" supports="Primal Knowledge, Skill" />
 			<select type="Class Feature" name="Primal Knowledge (Barbarian 10)" level="10" number="1" supports="Primal knowledge, Skill" />
 		</rules>
