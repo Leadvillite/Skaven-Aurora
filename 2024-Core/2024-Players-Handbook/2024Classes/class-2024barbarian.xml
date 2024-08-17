@@ -5,11 +5,11 @@
 		<description>The Barbarian class from the 2024 Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="class-2024barbarian.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-barbarian.xml" />
+			<file name="class-2024barbarian.xml" url="https://raw.githubusercontent.com/Leadvillite/Skaven-Aurora/main/2024-Core/2024-Players-Handbook/2024Classes/class-2024barbarian.xml" />
 		</update>
 	</info>
 
-	<element name="Barbarian" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_BARBARIAN">
+	<element name="2024Barbarian" type="Class" source="2024Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_BARBARIAN">
 		<description>
 			<p>A tall human tribesman strides through a blizzard, draped in fur and hefting his axe. He laughs as he charges toward the frost giant who dared poach his people’s elk herd.</p>
 			<p class="indent">A half-orc snarls at the latest challenger to her authority over their savage tribe, ready to break his neck with her bare hands as she did to the last six rivals.</p>
@@ -52,21 +52,21 @@
 				<li><i>(a)</i> two handaxes or <i>(b)</i> any simple weapon</li>
 				<li>An explorer’s pack and four javelins</li>
 			</ul>
-			<h5 class="caption">THE BARBARIAN</h5>
+			<h5 class="caption">THE 2024 BARBARIAN</h5>
 			<table class="class-features">
 				<thead>
 					<tr><td class="col-10">Level</td><td>Rages</td><td>Rage Damage</td><td class="col-60 left">Features</td></tr>
 				</thead>
-				<tr><td>1st</td><td>2</td><td>+2</td><td class="left">Rage, Unarmored Defense</td></tr>
+				<tr><td>1st</td><td>2</td><td>+2</td><td class="left">2024Rage, Unarmored Defense, Weapon Mastery</td></tr>
 				<tr><td>2nd</td><td>2</td><td>+2</td><td class="left">Reckless Attack, Danger Sense</td></tr>
-				<tr><td>3rd</td><td>3</td><td>+2</td><td class="left">Primal Path</td></tr>
+				<tr><td>3rd</td><td>3</td><td>+2</td><td class="left">Primal Path, Primal Knowledge</td></tr>
 				<tr><td>4th</td><td>3</td><td>+2</td><td class="left">Ability Score Improvement</td></tr>
 				<tr><td>5th</td><td>3</td><td>+2</td><td class="left">Extra Attack, Fast Movement</td></tr>
 				<tr><td>6th</td><td>4</td><td>+2</td><td class="left">Path feature</td></tr>
 				<tr><td>7th</td><td>4</td><td>+2</td><td class="left">Feral Instinct</td></tr>
 				<tr><td>8th</td><td>4</td><td>+2</td><td class="left">Ability Score Improvement</td></tr>
 				<tr><td>9th</td><td>4</td><td>+3</td><td class="left">Brutal Critical (1 die)</td></tr>
-				<tr><td>10th</td><td>4</td><td>+3</td><td class="left">Path feature</td></tr>
+				<tr><td>10th</td><td>4</td><td>+3</td><td class="left">Path feature, Primal Knowledge</td></tr>
 				<tr><td>11th</td><td>4</td><td>+3</td><td class="left">Relentless Rage</td></tr>
 				<tr><td>12th</td><td>5</td><td>+3</td><td class="left">Ability Score Improvement</td></tr>
 				<tr><td>13th</td><td>5</td><td>+3</td><td class="left">Brutal Critical (2 dice)</td></tr>
@@ -78,11 +78,13 @@
 				<tr><td>19th</td><td>6</td><td>+4</td><td class="left">Ability Score Improvement</td></tr>
 				<tr><td>20th</td><td>Unlimited</td><td>+4</td><td class="left">Primal Champion</td></tr>
 			</table>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RAGE" />
+			<div element="ID_WOTC_2024PHB_CLASS_FEATURE_BARBARIAN_2024RAGE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK" />
+			<div element="ID_WOTC_2024PHB_CLASS_FEATURE_WEAPON_MASTERY" />
+			<div element="ID_WOTC_2024PHB_CLASS_FEATURE_BARBARIAN_2024RECKLESS_ATTACK" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_DANGER_SENSE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH" />
+			<div element="ID_WOTC_2024PHB_CLASS_FEATURE_2024BARBARIAN_PRIMAL_KNOWLEDGE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT" />
@@ -111,9 +113,11 @@
 			<select type="Proficiency" name="Skill Proficiency (Barbarian)" number="2" supports="Skill,Barbarian" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RAGE" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE" level="1" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_2024PHB_CLASS_FEATURE_WEAPON_MASTER" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_2024PHB_CLASS_FEATURE_BARBARIAN_2024RECKLESS_ATTACK" level="2" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_DANGER_SENSE" level="2" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_2024PHB_CLASS_FEATURE_2024BARBARIAN_PRIMAL_KNOWLEDGE" level="3" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT" level="4" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK" level="5" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT" level="5" />
@@ -138,22 +142,23 @@
 			</rules>
 		</multiclass>
 	</element>
-	<element name="Rage" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RAGE">
+	<element name="Rage" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_BARBARIAN_2024RAGE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_RAGE</requirements>
 		<description>
 			<p>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren’t wearing heavy armor:</p>
 			<ul>
 				<li>You have advantage on Strength checks and Strength saving throws.</li>
-				<li>When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a barbarian, as shown in the Rage Damage column of the Barbarian table.</li>
+				<li>When you make a weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a barbarian, as shown in the Rage Damage column of the Barbarian table.</li>
 				<li>You have resistance to bludgeoning, piercing, and slashing damage.</li>
 			</ul>
 			<p>If you are able to cast spells, you can’t cast them or concentrate on them while raging.</p>
-			<p class="indent">Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven’t attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.</p>
+			<p class="indent">Your rage lasts for 10 minute. It ends early if you are knocked unconscious or if your turn ends and you haven’t attacked a hostile creature since your last turn, forced a hostile creature to make a saving throw, taken damage since then, or used your bonus action to maintain it. You can also end your rage on your turn as a bonus action.</p>
 			<p class="indent">Once you have raged the number of times shown for your barbarian level in the Rages column of the Barbarian table, you must finish a long rest before you can rage again.</p>
+			<p class="indent">You do recover one use of rage on a short rest.</p>
 		</description>
 		<sheet action="Bonus Action">
 			<description usage="{{barbarian rage:count}}/Long Rest">Advantage on Strength checks and Strength Saves. 
-			A +{{barbarian rage:damage}} to damage rolls with strength melee weapon attacks. 
+			A +{{barbarian rage:damage}} to damage rolls with strength weapon attacks. 
 			You have resistance to bludgeoning, piercing, and slashing damage. </description>
 			<description usage="Unlimited" level="20">Advantage on Strength checks and Strength Saves. 
 			A +{{barbarian rage:damage}} to damage rolls with strength melee weapon attacks. 
@@ -170,7 +175,7 @@
 			<stat name="barbarian rage:damage" value="1" level="9" />
 			<stat name="barbarian rage:damage" value="1" level="16" />
 			<!-- 
-			<stat name="melee:damage, strength" value="barbarian rage:damage" condition="while raging" />
+			<stat name="strength" value="barbarian rage:damage" condition="while raging" />
 			<stat name="advantage:Strength Check" condition="while raging" />
 			<stat name="advantage:Strength Saving Throws" condition="while raging" />
 			<stat name="resistance:bludgeoning" condition="while raging" />
@@ -179,7 +184,7 @@
 			-->
 		</rules>
 	</element>
-	<element name="Unarmored Defense" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE">
+	<element name="2024Unarmored Defense" type="Class Feature" source="2024Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_2024BARBARIAN_UNARMORED_DEFENCE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_UNARMORED_DEFENCE</requirements>
 		<description>
 			<p>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</p>
@@ -199,15 +204,32 @@
 			<stat name="ac:calculation" value="ac:unarmored defense barbarian" bonus="calculation" equipped="[armor:none]" alt="Unarmored Defense (Barbarian)" />
 		</rules>
 	</element>
-	<element name="Reckless Attack" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_RECKLESS_ATTACK</requirements>
+
+
+	
+		<element name="Weapon Mastery" type="Class Feature" source="2024Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_2024BARBARIAN_WEAPON_MASTER">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_WEAPON_MASTERY</requirements>
 		<description>
-			<p>Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</p>
+			<p>Your training with weapons have unlocked addition properties for the weapons that you have proficiency with.</p>
 		</description>
 		<sheet>
-			<description>When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</description>
+			<description>Your training with weapons have unlocked addition properties for the weapons that you have proficiency with.</description>
 		</sheet>
 	</element>
+
+
+	
+	
+	<element name="2024Reckless Attack" type="Class Feature" source="2024Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_BARBARIAN_2024RECKLESS_ATTACK">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_RECKLESS_ATTACK</requirements>
+		<description>
+			<p>Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make ANY attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on weapon attack rolls using Strength until your next turn, but attack rolls against you have advantage until your next turn.</p>
+		</description>
+		<sheet>
+			<description>When you make ANY attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on weapon attack rolls using Strength until your turn, but attack rolls against you have advantage until your next turn.</description>
+		</sheet>
+	</element>
+
 	<element name="Danger Sense" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_DANGER_SENSE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_DANGER_SENSE</requirements>
 		<description>
@@ -231,6 +253,39 @@
 			<select type="Archetype" name="Primal Path" supports="Primal Path" level="3" />
 		</rules>
 	</element>
+
+
+	
+
+
+
+	
+	<element name="Primal Knowledge" type="Class Feature" source="2024Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_2024BARBARIAN_PRIMAL_KNOWLEDGE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_PRIMAL_KNOWLEDGE</requirements>
+		<description>
+			<p>At 3rd level, and again at 10th level you gain profieciency in one skill of your choice from the list of skills available to barbarians at level 1. You also can use your strength modifier instead on acrobatics, intimidation, perception, stealth, or survival</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="athletics:proficiency" value="strength:modifier + proficiency" bonus="base" />
+			<stat name="intimidation:proficiency" value="strength:modifier + proficiency" bonus="double" />
+			<stat name="perception:proficiency" value="strength:modifier + proficiency" bonus="double" />
+			<stat name="stealth:proficiency" value="strength:modifier + proficiency" bonus="double" />
+			<stat name="survival:proficiency" value="strength:modifier + proficiency" bonus="double" />
+
+
+			
+			<select type="Class Feature" name="Primal Knowledge (Barbarian 3)" level="3" number="1" supports="Primal Knowledge, Skill" />
+			<select type="Class Feature" name="Primal Knowledge (Barbarian 10)" level="10" number="1" supports="Primal knowledge, Skill" />
+		</rules>
+	</element>
+	
+
+
+
+
+	
+	
 	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
@@ -310,10 +365,10 @@
 			<description>If you drop to 0 hp while you’re raging and don’t die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hp instead. Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</description>
 		</sheet>
 	</element>
-	<element name="Persistant Rage" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PERSISTANT_RAGE">
+	<element name="Persistant Rage" type="Class Feature" source="2024Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_BARBARIAN_2024PERSISTANT_RAGE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_PERSISTANT_RAG</requirements>
 		<description>
-			<p>Beginning at 15th level, your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.</p>
+			<p>Beginning at 15th level, your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it. You also regain all uses of rage at the beginning of every encounter</p>
 		</description>
 		<sheet>
 			<description>Your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.</description>
@@ -359,4 +414,79 @@
 	<element name="Persistant Rage Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_PERSISTANT_RAG" />
 	<element name="Indomitable Might Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_INDOMITABLE_MIGHT" />
 	<element name="Primal Champion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARBARIAN_PRIMAL_CHAMPION" />
+
+
+	<!-- Primal Knowledge -->
+	<element name="Primal Knowledge (Animal Handling)" type="Class Feature" source="2024Player’s Handbook" id="ID_PRIMAL_KNOWLEDGE_SKILL_ANIMAL HANDLING">
+		<supports>Primal Knowledge, Skill, ID_INTERNAL_SUPPORT_PRIMAL_KNOWLEDGE</supports>
+		<requirements>!ID_PROFICIENCY_SKILL_ANIMAL_HANDLING</requirements>
+		<description>
+			<p>You gain proficiency in animal handling skill checks.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ANIMAL_HANDLING" />
+		</rules>
+	</element>
+	
+	<element name="Primal Knowledge (Athletics)" type="Class Feature" source="2024Player’s Handbook" id="ID_PRIMAL_KNOWLEDGE_SKILL_ATHLETICS">
+		<supports>Primal Knowledge, Skill, ID_INTERNAL_SUPPORT_PRIMAL_KNOWLEDGE</supports>
+		<requirements>!ID_PROFICIENCY_SKILL_ATHLETICS</requirements>
+		<description>
+			<p>You gain proficiency in athletic skill checks.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ATHLETICS" />
+		</rules>
+	</element>
+
+	<element name="Primal Knowledge (Intimidation)" type="Class Feature" source="2024Player’s Handbook" id="ID_PRIMAL_KNOWLEDGE_SKILL_INTIMIDATION">
+		<supports>Primal Knowledge, Skill, ID_INTERNAL_SUPPORT_PRIMAL_KNOWLEDGE</supports>
+		<requirements>!ID_PROFICIENCY_SKILL_INIMIDATION</requirements>
+		<description>
+			<p>You gain proficiency in intimidation skill checks.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_INTIMIDATION" />
+		</rules>
+	</element>
+
+	<element name="Primal Knowledge (Nature)" type="Class Feature" source="2024Player’s Handbook" id="ID_PRIMAL_KNOWLEDGE_SKILL_NATURE">
+		<supports>Primal Knowledge, Skill, ID_INTERNAL_SUPPORT_PRIMAL_KNOWLEDGE</supports>
+		<requirements>!ID_PROFICIENCY_SKILL_NATURE</requirements>
+		<description>
+			<p>You gain proficiency in nature skill checks.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_NATURE" />
+		</rules>
+	</element>
+
+	<element name="Primal Knowledge (Preception)" type="Class Feature" source="2024Player’s Handbook" id="ID_PRIMAL_KNOWLEDGE_SKILL_PRECEPTION">
+		<supports>Primal Knowledge, Skill, ID_INTERNAL_SUPPORT_PRIMAL_KNOWLEDGE</supports>
+		<requirements>!ID_PROFICIENCY_SKILL_PRECEPTION</requirements>
+		<description>
+			<p>You gain proficiency in preception skill checks.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_PRECEPTION" />
+		</rules>
+	</element>
+
+	<element name="Primal Knowledge (Survival)" type="Class Feature" source="2024Player’s Handbook" id="ID_PRIMAL_KNOWLEDGE_SKILL_SURVIVAL">
+		<supports>Primal Knowledge, Skill, ID_INTERNAL_SUPPORT_PRIMAL_KNOWLEDGE</supports>
+		<requirements>!ID_PROFICIENCY_SKILL_SURVIVAL</requirements>
+		<description>
+			<p>You gain proficiency in survival skill checks.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SURVIVAL" />
+		</rules>
+	</element>
+
 </elements>
